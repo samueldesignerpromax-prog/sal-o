@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salão Beleza & Estilo</title>
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-spa"></i>
+                <h1>Beleza & Estilo</h1>
+            </div>
+            
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <button class="menu-hamburger" id="menuHamburger" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ========== HOME / BANNER ========== -->
+    <section class="banner" id="home">
+        <div class="banner-overlay">
+            <div class="container">
+                <div class="banner-content">
+                    <h2>Transforme sua Beleza</h2>
+                    <p>Cuide de você com os melhores profissionais e produtos do mercado.</p>
+                    <a href="#agendamento" class="btn-principal">Agende seu Horário</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVIÇOS ========== -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <div class="section-titulo">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos uma experiência completa de beleza e bem-estar</p>
+            </div>
+            
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Corte & Finalização</h3>
+                    <p>Cortes modernos, clássicos e finalização com produtos de alta qualidade.</p>
+                    <span class="preco">R$ 80,00</span>
+                </div>
+                
+                <div class="servico-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Coloração & Mechas</h3>
+                    <p>Coloração, mechas, luzes e técnicas avançadas para realçar seus fios.</p>
+                    <span class="preco">R$ 150,00</span>
+                </div>
+                
+                <div class="servico-card">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Esmaltação, alongamento, design de unhas e cuidados especiais.</p>
+                    <span class="preco">R$ 60,00</span>
+                </div>
+                
+                <div class="servico-card">
+                    <i class="fas fa-face-smile"></i>
+                    <h3>Maquiagem Profissional</h3>
+                    <p>Maquiagem para festas, eventos, noivas e make autêntico.</p>
+                    <span class="preco">R$ 120,00</span>
+                </div>
+                
+                <div class="servico-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Tratamentos Capilares</h3>
+                    <p>Hidratação, nutrição, reconstrução e botox capilar.</p>
+                    <span class="preco">R$ 90,00</span>
+                </div>
+                
+                <div class="servico-card">
+                    <i class="fas fa-wand-sparkles"></i>
+                    <h3>Design de Sobrancelhas</h3>
+                    <p>Design, henna, micropigmentação e cuidados com os olhos.</p>
+                    <span class="preco">R$ 50,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GALERIA ========== -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="section-titulo">
+                <h2>Galeria</h2>
+                <p>Veja alguns dos nossos trabalhos</p>
+            </div>
+            
+            <div class="galeria-grid">
+                <div class="galeria-item" style="background-image: url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop');">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="galeria-item" style="background-image: url('https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=400&h=300&fit=crop');">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="galeria-item" style="background-image: url('https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=400&h=300&fit=crop');">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="galeria-item" style="background-image: url('https://images.unsplash.com/photo-1522335140396-4c3a9efb3f0a?w=400&h=300&fit=crop');">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="galeria-item" style="background-image: url('https://images.unsplash.com/photo-1560869713-da2a9e5bc0d5?w=400&h=300&fit=crop');">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="galeria-item" style="background-image: url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=300&fit=crop');">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DEPOIMENTOS ========== -->
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+            <div class="section-titulo">
+                <h2>O que nossas clientes dizem</h2>
+                <p>Histórias reais de quem confia em nosso trabalho</p>
+            </div>
+            
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Atendimento impecável! Saí do salão me sentindo uma nova pessoa. Recomendo a todas!"</p>
+                    <div class="cliente">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Cliente" />
+                        <div>
+                            <h4>Mariana Silva</h4>
+                            <span>⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="depoimento-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"A melhor experiência de beleza que já tive. Profissionais super atenciosos e ambiente acolhedor."</p>
+                    <div class="cliente">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Cliente" />
+                        <div>
+                            <h4>Camila Oliveira</h4>
+                            <span>⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="depoimento-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Fiz meu casamento com elas e foi simplesmente perfeito! Maquiagem e cabelo incríveis."</p>
+                    <div class="cliente">
+                        <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop" alt="Cliente" />
+                        <div>
+                            <h4>Patrícia Santos</h4>
+                            <span>⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AGENDAMENTO / CONTATO ========== -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="contato-wrapper">
+                <div class="contato-info">
+                    <h2>Agende seu Horário</h2>
+                    <p>Entre em contato conosco e agende sua visita. Teremos prazer em atendê-la!</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@belezacstilo.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-pin"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua da Beleza, 123 - Centro, São Paulo - SP</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Funcionamento</h4>
+                            <p>Segunda a Sábado: 09h - 20h</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contato-form" id="formAgendamento">
+                    <h3>Faça seu agendamento</h3>
+                    
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" placeholder="Seu nome" required />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="seu@email.com" required />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" placeholder="(11) 99999-9999" required />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="servico">Serviço desejado</label>
+                        <select id="servico" required>
+                            <option value="">Selecione...</option>
+                            <option>Corte & Finalização</option>
+                            <option>Coloração & Mechas</option>
+                            <option>Manicure & Pedicure</option>
+                            <option>Maquiagem Profissional</option>
+                            <option>Tratamentos Capilares</option>
+                            <option>Design de Sobrancelhas</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="data">Data preferencial</label>
+                        <input type="date" id="data" required />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem (opcional)</label>
+                        <textarea id="mensagem" rows="4" placeholder="Alguma observação?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-principal">Enviar Agendamento</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3><i class="fas fa-spa"></i> Beleza & Estilo</h3>
+                    <p>Transformando beleza e autoestima há mais de 10 anos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li>Corte & Finalização</li>
+                        <li>Coloração & Mechas</li>
+                        <li>Manicure & Pedicure</li>
+                        <li>Maquiagem Profissional</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+                        <li><i class="fas fa-envelope"></i> contato@belezacstilo.com</li>
+                        <li><i class="fas fa-map-pin"></i> São Paulo - SP</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Beleza & Estilo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== BOTÃO WHATSAPP FLUTUANTE ========== -->
+    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar um horário." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
